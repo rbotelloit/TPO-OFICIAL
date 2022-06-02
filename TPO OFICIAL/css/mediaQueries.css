@@ -1,0 +1,11 @@
+@media (max-width: 600px){ .ow {font-size: 14px;} .img-out {width: 45%;}
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-width: 400px){ .ow {font-size: 10px;} .img-out {width: 100%;}
+    .column{
+        flex: 100%;
+    }
+}

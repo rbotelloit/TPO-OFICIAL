@@ -1,0 +1,320 @@
+* {box-sizing: border-box;}
+
+/*activar seleccionado de elementos en la pagina
+y sombreado de color*/
+/*::selection {user-select: text;}
+*::selection {background-color: white;}*/
+/*activar seleccionado de elementos en la pagina
+y sombreado de color*/
+
+/* Insertando fuente */
+@font-face {
+    font-family: "gow";
+    src: url('Fonts/font.TTF');
+}
+/* Insertando fuente */
+
+/* Logo cabecera Fondo degradado */
+#gamer {color: white; background:linear-gradient(black 50%, red 50%);
+    font-family: "gow";}
+/* Logo cabecera Fondo degradado  */
+
+head {background-color: black;}
+
+body {background-color: black; width: 100%;}
+
+/* Div Cabecera  */
+.ow {color: red; 
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+.sharingan {
+    width: 110px;
+    height: 110px;
+}
+
+.nombre-web {
+    flex: 1;
+}
+
+.logo-container {background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* Div Cabecera  */
+
+
+/* Menú  */
+
+/* .navbar {} */
+
+.container-inicio {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccion-inicio {
+    font-family: "gow";
+    background:linear-gradient(black 50%, red 50%);
+}
+
+.menu {
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.menu.titulo {
+    font-family: "gow";
+}
+
+.menu:link {color: white;
+    text-emphasis-style: red; 
+    text-decoration-line: none;
+    font-family: "gow";
+}
+
+.menu:visited {color: white; 
+}
+
+.menu:hover {color: red; font-size: 1.7em; 
+}
+
+.menu:active {color: yellow; 
+}
+/* Menú  */
+
+/* #main-section {
+    width: 1350px;
+} */
+
+/* #seccion {
+    width: 1000px;
+    min-height: 300px;
+    background-color: black;
+    margin: 5px;
+} */
+
+.definicion {
+font-size: 1.2em;
+}
+
+/*DIVS IMAGENES INICIO*/
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.div-ogw-es {
+    width: 100%;
+}
+
+.text-ogw-es {
+    width: 100%;
+}
+
+.img-out {
+    width: 27%;
+}
+/*DIVS IMAGENES INICIO*/
+
+/*DIVS LISTAS INICIO*/
+
+.div-list {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.div-ul {
+    font-size: 1.1em;
+}
+
+.div-ol {
+    font-size: 1.1em;
+}
+
+.list {
+    list-style: square;
+}
+
+/*DIVS LISTAS INICIO*/
+
+/*FOOTER*/
+
+.form-container {
+    align-content: center;
+    display: grid;
+    flex-flow: wrap;
+    padding: 3px;
+    background-color: black; 
+    justify-content: space-between;
+}
+
+footer {background-color: black;}
+
+.div-titulos-form {
+    font-size: 1em;
+}
+
+.div-form{
+    color: white; 
+    width: 40%; 
+    border-color: 3px solid red; 
+}
+
+/*FOOTER*/
+
+
+h1 {color: white; font-family: "gow";}
+
+h2 { color: rgb(255, 0, 0);font-family: "gow";}
+
+h3 {color: red;font-family: "gow";}
+
+p {color: white;}
+
+li{color: white;
+list-style: none;
+}
+
+form {color: white;}
+
+i {color: red;}
+
+
+/*Caja fija de goku bienvenidos*/
+
+/*.fijo {
+width: 200px;
+height: 200px;
+border: 4px solid red;
+position: fixed;
+top: 20px;
+right: 0px;
+}
+div > p {color: white;}*/
+
+/*Caja fija de goku bienvenidos*/
+
+/*ASIDE*/
+/*
+aside section{
+    width: 80%;
+    margin: auto;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#aside {
+    display:inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    float: right;
+    margin: 10px;
+}*/
+
+/*ASIDE*/
+
+/* .flex-container {
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+
+/* .flex-item {color: white; 
+    width: 15%; 
+    height: 15%; 
+    background-color: black; 
+    border: 2px solid red;
+    overflow: hidden;
+} */
+
+/*GALERIA*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 100%;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid red;
+    margin-left: 50px;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.column img {
+    margin-top: 5px;
+    background-color: black;
+}
+
+/*GALERIA*/
+
+/*ADDRESS*/
+
+.address-section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-address {
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.firma {
+    font-size: 1.2em;
+    width: 100px;
+    height: 100px;
+    text-align:center;
+    background-color: black;
+    color: yellow;
+    transition: all .4s ease-in-out;
+}
+
+/*ADDRESS*/
+
+

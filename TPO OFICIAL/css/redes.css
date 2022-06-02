@@ -1,0 +1,33 @@
+
+section {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}   
+
+.redes {
+    min-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes a {
+text-decoration: none;
+font-size: 50px;
+width: 80px;
+height: 60px;
+line-height: 50px;
+text-align: center;
+background-color: black;
+color: red;
+border-radius: 20%;
+box-shadow: 2px 2px 1px rgb(255, 0, 0);
+transition: all .4s ease-in-out;
+}
+
+.redes a:hover {
+    transform: scale(1.3);
+}
+
